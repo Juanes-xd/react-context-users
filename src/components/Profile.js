@@ -18,7 +18,7 @@ const Profile = () => {
           <h3>email: {`${selectedUser.email}`}</h3>
         </div>
       ) : (
-        <h1>No user selected</h1>
+        <h1>Usuarios no seleccionados</h1>
       )}
     </>
   );
